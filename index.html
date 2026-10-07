@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- PYTHON / PYSCRIPT -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com" rel="stylesheet">
+    <!-- Title -->
+    <title>Working with Python Lists</title>
+
+</head>
+ 
+<body>
+<!-- Title Div -->
+    <main class="container">
+
+        <header class="header">
+            <div class="leaf-icon">🌎</div>
+
+            <h1>The <span>Nickname</span> Atlas of East Asia</h1>
+
+            <p>
+                Every nation in this region carries a name earned through geography, history, and a myth. Type a country below to uncover the title it has been given.
+            </p>
+        </header>
+<!-- Div 2 -->
+        <section id="div1">
+            <!-- main.py will add content here -->
+              <p class="label">Country Lookup</p>
+
+                <h2>Enter an East Asian country</h2>
+                <input type="text" id="country" placeholder="Enter country..."><br>
+                <button py-click="show_name">
+                    Reveal Nickname
+                </button>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <div id="result">
+
+                </div>
+
+        </section>
+        <br>
+<!-- Footer -->
+        <footer class="footer">
+           Seatwork 1 - 2nd quarter: 8 Nations of East Asia
+        </footer>
+
+    </main>
+
+    <py-script src="main.py"></py-script>
+
+</body>
+</html>
