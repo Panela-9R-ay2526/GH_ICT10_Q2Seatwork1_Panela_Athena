@@ -1,4 +1,4 @@
-          :root {
+        :root {
             --forest: #f88888;
             --deep-green: #8b2323;
             --leaf: #ffcef6;
@@ -56,25 +56,8 @@
         }
 
         h1 span {
-            color: #d2af52;
-
+            color: #e9ca75;
             font-style: italic;
-        }
-
-        header::after {
-            content: "";
-
-            position: absolute;
-
-            bottom: -35px;
-            left: -2%;
-
-            width: 104%;
-            height: 70px;
-
-            background: #f4eddb;
-
-            border-radius: 50% 50% 0 0;
         }
 
         /* Main container */
@@ -288,4 +271,12 @@
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 
             transition: 0.2s ease;
+        }
+
+        p {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        h4 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
