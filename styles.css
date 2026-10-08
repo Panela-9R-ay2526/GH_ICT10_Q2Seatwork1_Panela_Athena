@@ -265,4 +265,27 @@
             padding: 12px;
             font-size: 16px;
             border-radius: 8px;
+
+            
+        }
+         .country-dropdown {
+            width: 100%;
+            padding: 14px 18px;
+            margin-top: 10px;
+
+            background-color: #fffaf5;
+            color: #26352C;
+
+            border: 2px solid #8b2323;
+            border-radius: 12px;
+
+            font-size: 16px;
+            font-family: "Gill Sans", sans-serif;
+
+            cursor: pointer;
+            outline: none;
+
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+
+            transition: 0.2s ease;
         }
