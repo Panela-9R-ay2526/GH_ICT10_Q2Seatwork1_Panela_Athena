@@ -1,13 +1,12 @@
 # Working with Lists
 from pyscript import document
 # Variables
-country = ["China", "Japan", "South Korea", "North Korea", "Mongolia", "Taiwan", "Hong Kong","Macau"]
-nickname = ["The Red Dragon","Land of the Rising Sun", "Land of the Morning Calm", "The Hermit Kingdom","Land of the Eternal Blue Sky","The Beautiful Island", "Asia's World City","Las Vegas of Asia"]
-# Function
+country = ("China", "Japan", "South Korea", "North Korea", "Mongolia", "Taiwan", "Hong Kong","Macau")
+nickname = ("The Red Dragon","Land of the Rising Sun", "Land of the Morning Calm", "The Hermit Kingdom","Land of the Eternal Blue Sky","The Beautiful Island", "Asia's World City","Las Vegas of Asia")
+
 def show_name(e):
     selected_country = document.getElementById("country").value
 
-    index = country.index(selected_country)
-    selected_nickname = nickname[index]
+    selected_nickname = nickname[int(selected_country)]
 
     document.getElementById("result").innerText = selected_nickname
